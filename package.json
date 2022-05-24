@@ -1,0 +1,19 @@
+{
+  "name": "gitmng",
+  "version": "1.0.0",
+  "description": "Felipe Bonazzi code challenge for LovelyStay.com",
+  "main": "cli.ts",
+  "author": "Felipe Bonazzi",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "ramda": "^0.28.0",
+    "typescript": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gitmng": "./cli.ts"
+  }
+}
