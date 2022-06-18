@@ -1,2 +1,2 @@
 # gitmng
-Felipe Bonazzi code challenge for LovelyStay.com
+Node.js CLI app example for studying.
