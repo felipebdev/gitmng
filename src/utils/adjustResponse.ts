@@ -4,7 +4,7 @@ import { pick } from 'ramda'
 import { LooseObject } from '../types/interfaces/user'
 import { User } from '../types/interfaces/user.js'
 
-export function objectToArrayValues(obj: LooseObject): Array<any> {
+export function objectToArrayValues(obj: LooseObject): Array<any> { //could have used Object.values()
   const arrayValues: Array<any> = Object.keys(obj).map(function (key) {
     return obj[key]
   })
